@@ -1,14 +1,23 @@
 {
   "name": "axe-puppeteer-ci",
   "version": "1.0.0",
-  "description": "",
+  "description": "508 Compliance using axe-puppeteer",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "orenfromberg@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "axe-puppeteer": "^1.1.0"
-  }
+    "axe-puppeteer": "^1.1.0",
+    "colors": "^1.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orenfromberg/axe-puppeteer-ci.git"
+  },
+  "bugs": {
+    "url": "https://github.com/orenfromberg/axe-puppeteer-ci/issues"
+  },
+  "homepage": "https://github.com/orenfromberg/axe-puppeteer-ci#readme"
 }
