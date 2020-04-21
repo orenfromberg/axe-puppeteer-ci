@@ -55,10 +55,12 @@ if (process.argv.slice(2).length == 0) {
     await page.goto(process.argv[2])
   
     const results = await new AxePuppeteer(page).analyze()
+    const error_code = results.violations.length === 0 ? 0 : 1;
     logResults(results)
   
     await page.close()
     await browser.close()
+    process.exit(error_code)
   })()
 }
 
